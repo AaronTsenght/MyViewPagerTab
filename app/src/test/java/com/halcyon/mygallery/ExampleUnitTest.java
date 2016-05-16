@@ -1,11 +1,11 @@
-package com.halcyon.mycontacts;
+package com.aarontseng.myviewpagertab;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 /**
- * To work on unit tests, switch the Test Artifact in the Build Variants com.halcyon.view.
+ * To work on unit tests, switch the Test Artifact in the Build Variants com.aarontseng.view.
  */
 public class ExampleUnitTest {
     @Test

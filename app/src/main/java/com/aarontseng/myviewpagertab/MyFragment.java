@@ -1,4 +1,4 @@
-package com.halcyon.mycontacts;
+package com.aarontseng.myviewpagertab;
 
 
 import android.support.v4.app.Fragment;
@@ -10,11 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class SmsFragment extends Fragment{
+public class MyFragment extends Fragment{
     private String mTitle;
     private static final String BUNDLE_TITLE="title";
 
-    @Nullable
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Bundle bundle=getArguments();
@@ -30,13 +30,13 @@ public class SmsFragment extends Fragment{
         return textView;
     }
 
-    public static SmsFragment newInstance(String title){
+    public static MyFragment newInstance(String title){
         Bundle bundle=new Bundle();
         bundle.putString(BUNDLE_TITLE, title);
 
-        SmsFragment smsFragment=new SmsFragment();
-        smsFragment.setArguments(bundle);
+        MyFragment MyFragment =new MyFragment();
+        MyFragment.setArguments(bundle);
 
-        return smsFragment;
+        return MyFragment;
     }
 }

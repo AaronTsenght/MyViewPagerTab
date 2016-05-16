@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.halcyon.mygallery"
+        applicationId "com.aarontseng.mygallery"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

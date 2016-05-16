@@ -3,4 +3,7 @@
     <string name="sms">短信</string>
     <string name="dial">电话</string>
     <string name="contacts">联系人</string>
+    <string name="history">通话记录</string>
+    <string name="favorite">收藏</string>
+    <string name="setting">设置</string>
 </resources>
